@@ -1,1 +1,1 @@
-MODEL_WEIGHTS = "" #path to model weights
+MODEL_WEIGHTS = "weights/res18-unet.pt" #path to model weights
