@@ -1,0 +1,7 @@
+torch==1.7.1
+torchvision==0.8.2
+fastai==2.2.5
+opencv-python==4.5.1.48
+scikit-image==0.17.2
+streamlit==0.76.0
+numpy==1.19.2
