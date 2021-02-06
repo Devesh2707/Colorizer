@@ -2,3 +2,4 @@ Rough.py
 fastApi.py
 weights
 .vscode
+__pycache__
