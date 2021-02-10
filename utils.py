@@ -8,6 +8,14 @@ from torchvision import transforms
 
 from generator import load_weights
 
+from google_drive_downloader import GoogleDriveDownloader as gdd
+
+import config
+
+def download_weights():
+    gdd.download_file_from_google_drive(file_id="1pf62jJN-v6RpYEtwPsjh54STqO77UGz_",
+                                        dest_path = config.MODEL_WEIGHTS)
+
 def lab_to_rgb(L, ab):
     L = (L + 1.) * 50.
     ab = ab * 110.
@@ -34,9 +42,8 @@ def postprocess(L, predicted_colors):
     img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
     return img
 
-def predict(img, device, image_size):
+def predict(img, device, image_size, model):
     img = preprocess(img, image_size)
-    model = load_weights(device, image_size)
     model.to(device)
     model.eval()
     with torch.no_grad():

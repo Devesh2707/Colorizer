@@ -7,7 +7,7 @@ import config
 weights_path = config.MODEL_WEIGHTS
 
 def build_res_unet(n_input=1, n_output=2, size=224):
-    body = create_body(resnet18, pretrained=True, n_in=n_input, cut=-2)
+    body = create_body(resnet18, pretrained=False, n_in=n_input, cut=-2)
     net_G = DynamicUnet(body, n_output, (size, size))
     return net_G
 

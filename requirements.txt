@@ -5,3 +5,4 @@ opencv-python==4.5.1.48
 scikit-image==0.17.2
 streamlit==0.76.0
 numpy==1.19.2
+googledrivedownloader==0.4
