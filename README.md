@@ -4,7 +4,7 @@ A simple Conditional GAN implementation to colour black and white images using d
 
 1. Using two loss functions:
    1. L1 Loss, to check how much the generated image is close to the original image, making it a supervised task.
-   2. GAN loss, making it a unsupervised.
+   2. GAN loss, making it a unsupervised task.
 2. U-Net as the generator, although I used the [DynamicUnet](https://docs.fast.ai/vision.models.unet.html) class of [fastai](https://docs.fast.ai) which helps to make a custom U-Net architecture out of an existing model architecture (here, resnet18).
 3. A PatchDiscriminator as the discriminator.
 
