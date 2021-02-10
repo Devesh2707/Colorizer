@@ -1,11 +1,11 @@
 # Colorizer
 
-A simple Conditional GAN implementation to colour black and white images using deep learning and pytorch. In the paper Image-to-Image Translation with Conditional Adversarial Networks, many image to image translation tasks were proposed with colourising black and white images one of them. Some of the key concepts used in the paper were:
+A simple Conditional GAN implementation to colour black and white images using deep learning and [pytorch](https://pytorch.org). In the paper [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004), many image to image translation tasks were proposed with colourising black and white images one of them. Some of the key concepts used in the paper were:
 
 1. Using two loss functions:
    1. L1 Loss, to check how much the generated image is close to the original image, making it a supervised task.
    2. GAN loss, making it a unsupervised.
-2. U-Net as the generator, although I used the DynamicUnet class of fastai which helps to make a custom U-Net architecture out of an existing model architecture (here, resnet18).
+2. U-Net as the generator, although I used the [DynamicUnet](https://docs.fast.ai/vision.models.unet.html) class of [fastai](https://docs.fast.ai) which helps to make a custom U-Net architecture out of an existing model architecture (here, resnet18).
 3. A PatchDiscriminator as the discriminator.
 
 
@@ -22,8 +22,7 @@ A simple Conditional GAN implementation to colour black and white images using d
 
 The results shown here the outputs of the generator after the whole training process:
 
-<left><img src= "./images/5PMe5hr8tjSS9Nq5d6Cebe.jpeg" width="224px"/></left>                                                           
-<right><img src= "./images/color_img_1.jpeg" width="224px"/></right>
+| <img src= "./images/5PMe5hr8tjSS9Nq5d6Cebe.jpeg" width="224px"/> | <img src= "./images/color_img_1.jpeg" width="224px">                                                  
 
 <left><img src= "./images/Landscape-BW.jpg" width="224px"/></left>                                                           
 <right><img src= "./images/color_img_2.jpeg" width="224px"/></right>
