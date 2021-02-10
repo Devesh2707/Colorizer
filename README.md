@@ -53,7 +53,7 @@ The results shown here the outputs of the generator after the whole training pro
 >
 > streamlit run streamlitApp.py
 
-<center><img src= "./images/ss.png" width="1024px"/></center> 
+<center><img src= "./images/ss.png" width="1920px"/></center> 
 
 
 
