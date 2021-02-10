@@ -24,14 +24,13 @@ The results shown here the outputs of the generator after the whole training pro
 
 | <img src= "./images/5PMe5hr8tjSS9Nq5d6Cebe.jpeg" width="224px"/> | <img src= "./images/color_img_1.jpeg" width="224px">                                                  
 
-<left><img src= "./images/Landscape-BW.jpg" width="224px"/></left>                                                           
-<right><img src= "./images/color_img_2.jpeg" width="224px"/></right>
+| <img src= "./images/Landscape-BW.jpg" width="224px"/> | <img src= "./images/color_img_2.jpeg" width="224px"/>                                                         
 
-<left><img src= "./images/canal-venice-bridge-gondolas-people-black-white-taken-rialto-italy-gondola-boats-111434192.jpg" width="224px"/></left>                                                           
-<right><img src= "./images/color_img_3.jpeg" width="224px"/></right>
+| <img src= "./images/canal-venice-bridge-gondolas-people-black-white-taken-rialto-italy-gondola-boats-111434192.jpg" width="224px"/> | <img src= "./images/color_img_3.jpeg" width="224px"/>                                                       
 
-<left><img src= "./images/images.jpeg" width="224px"/></left>                                                           
-<right><img src= "./images/color_img_4.jpeg" width="224px"/></right>
+
+| <img src= "./images/images.jpeg" width="224px"/> | <img src= "./images/color_img_4.jpeg" width="224px"/>                                                       
+
 
 
 
