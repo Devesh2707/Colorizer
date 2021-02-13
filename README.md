@@ -51,9 +51,9 @@ The results shown here the outputs of the generator after the whole training pro
 >
 > open command line and change the directory to Colorizer
 >
-> pip install -r requirements.txt
+> `pip install -r requirements.txt`
 >
-> streamlit run streamlitApp.py
+> `streamlit run streamlitApp.py`
 
 <center><img src= "./images/ss.png" width="1920px"/></center> 
 
