@@ -59,8 +59,8 @@ The results shown here the outputs of the generator after the whole training pro
 
 # Running With Docker
 
-> make sure docker installed in your system
->
+Install docker from [here](https://docs.docker.com/engine/install/)
+
 > download and unzip the repository
 >
 > open command line and change the directory to Colorizer
