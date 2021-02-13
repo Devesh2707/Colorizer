@@ -14,7 +14,7 @@ def main():
     download_weights()
     st.title("Black&White photo colorizer")
     file = st.file_uploader("upload a black&white photo", type=['jpg','png','jpeg'])
-    image_size = int(st.number_input("Provide image size (note: larger images will take more time and will not show good results too)"))
+    image_size = int(st.number_input("Provide image size (note: larger images will take more time and will not show good results too)", min_value=128.0, max_value=1024.0, value = 224.0))
     model = load_weights(device=device, image_size=image_size)
     if file is not None:
         img_stream = io.BytesIO(file.read())

@@ -29,7 +29,9 @@ The results shown here the outputs of the generator after the whole training pro
 | <img src= "./images/canal-venice-bridge-gondolas-people-black-white-taken-rialto-italy-gondola-boats-111434192.jpg" width="224px"/> | <img src= "./images/color_img_3.jpeg" width="224px"/>                                                       
 
 
-| <img src= "./images/images.jpeg" width="224px"/> | <img src= "./images/color_img_4.jpeg" width="224px"/>                                                       
+| <img src= "./images/images.jpeg" width="224px"/> | <img src= "./images/color_img_4.jpeg" width="224px"/>
+
+| <img src= "./images/BW-using-curves.jpg" width="224px"/> | <img src= "./images/color_img_5.jpeg" width="224px"/> 
 
 
 
@@ -55,7 +57,21 @@ The results shown here the outputs of the generator after the whole training pro
 
 <center><img src= "./images/ss.png" width="1920px"/></center> 
 
+# Running With Docker
 
+> make sure docker installed in your system
+>
+> download and unzip the repository
+>
+> open command line and change the directory to Colorizer
+>
+> build the image using:
+>
+> `docker build -t bwtocolor:api -f Dockerfile .`
+>
+> run the containerized app using:
+>
+> `docker run -p 8501:8501 bwtocolor:api`
 
 
 
